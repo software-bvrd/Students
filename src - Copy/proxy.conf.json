@@ -1,0 +1,10 @@
+{
+"/api": {
+    "target": "http://apirest2.local:8083",
+    "secure": true,
+    "changeOrigin": true,
+    "pathRewrite": {
+      "^/api": ""
+    }
+  }
+}
